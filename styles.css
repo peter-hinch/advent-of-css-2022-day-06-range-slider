@@ -42,4 +42,15 @@ section.item .item__price .price__value {
 }
 
 section.item button.item__buy-now {
+  padding: 35px 53px;
+  min-width: 333px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: #333139;
+  border: none;
+  border-radius: 100px;
 }
