@@ -41,6 +41,26 @@ section.item .item__price .price__value {
   line-height: 118px;
 }
 
+input[type='range'] {
+  -webkit-appearance: none;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 14px;
+}
+
+input[type='range']::-moz-range-track {
+  height: 14px;
+}
+
+section.item .item__price-range {
+  margin: 70px 0;
+}
+
 section.item button.item__buy-now {
   padding: 35px 53px;
   min-width: 333px;
