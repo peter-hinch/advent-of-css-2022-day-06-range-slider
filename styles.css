@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700;900&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #262529;
+}
+
+section.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 66px 72px;
+  width: 830px;
+  background: #262529;
+  box-shadow: 0px 0px 250px #000000;
+  border-radius: 20px;
+}
+
+section.item .item__price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #ffc700;
+}
+
+section.item .item__price .price__currency-symbol {
+  margin-right: 4px;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 82px;
+}
+
+section.item .item__price .price__value {
+  font-weight: 700;
+  font-size: 93.77px;
+  line-height: 118px;
+}
+
+section.item button.item__buy-now {
+}
